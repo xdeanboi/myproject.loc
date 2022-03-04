@@ -18,7 +18,7 @@ class ArticleApiController extends AbstractController
         }
 
         $this->view->displayJson([
-            'article' => [$article]
+                'article' => [$article]
             ]
         );
     }
